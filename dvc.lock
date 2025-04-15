@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: PYTHONPATH=. python3 app/training/train_model.py
+    deps:
+    - path: app/training/train_model.py
+      hash: md5
+      md5: 564548c44b1fc31f31b41d12f40b24e4
+      size: 3900
+    - path: config.yaml
+      hash: md5
+      md5: ba497c321a9508c12b091cc3bfdd06c5
+      size: 195
+    outs:
+    - path: models/
+      hash: md5
+      md5: 12e11615096829b47c33f17c34c54a79.dir
+      size: 536173
+      nfiles: 1
