@@ -1,0 +1,5 @@
+MODEL_PATH: "models/gradiant_boosting_model.pkl"
+DATA_PATH: "data/wine_data.csv"
+BATCH_INPUT_PATH: "data/batch_input.csv"
+BATCH_OUTPUT_PATH: "data/batch_predictions.csv"
+UPLOAD_FOLDER: "uploads"
