@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: PYTHONPATH=. python3 app/training/train_model.py
+    deps:
+    - app/training/train_model.py
+    - config.yaml
+    outs:
+    - models/
