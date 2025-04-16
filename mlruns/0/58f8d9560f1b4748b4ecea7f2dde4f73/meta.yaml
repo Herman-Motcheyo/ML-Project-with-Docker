@@ -1,0 +1,15 @@
+artifact_uri: file:///home/herman/Documents/Career/ML_Project/ML-projet-with-docker/mlruns/0/58f8d9560f1b4748b4ecea7f2dde4f73/artifacts
+end_time: 1744745811862
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 58f8d9560f1b4748b4ecea7f2dde4f73
+run_name: nervous-toad-784
+run_uuid: 58f8d9560f1b4748b4ecea7f2dde4f73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744745735377
+status: 4
+tags: []
+user_id: herman
